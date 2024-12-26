@@ -7,6 +7,6 @@ cloudinary.v2.config({
   api_secret: process.env.CLOUDINARY_CLIENT_SECRET,
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(5000, () => {
   console.log(`Server Listening on port: ${process.env.PORT}`);
 });
